@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/690.2d93de0c.chunk.js","mappings":"4JAIA,UAHmB,WACjB,OAAO,uCACR,C","sources":["pages/SingInPage.jsx"],"sourcesContent":["\nconst SingInPage = () => {\n  return <div>SingInPage</div>;\n};\nexport default SingInPage;\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/219.af72d28c.chunk.js","mappings":"4JAIA,UAHe,WACb,OAAO,mCACR,C","sources":["modules/Footer/Footer.jsx"],"sourcesContent":["\nconst Footer = () => {\n  return <div>Footer</div>;\n};\nexport default Footer;\n"],"names":[],"sourceRoot":""}

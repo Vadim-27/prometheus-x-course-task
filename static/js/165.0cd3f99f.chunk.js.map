@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/165.0cd3f99f.chunk.js","mappings":"4JAIA,UAHc,WACZ,OAAO,kCACR,C","sources":["modules/Heder/Heder.jsx"],"sourcesContent":["\nconst Heder = () => {\n  return <div>Heder</div>;\n};\nexport default Heder;\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/366.01816aac.chunk.js","mappings":"4JAIA,UAHkB,WAChB,OAAO,sCACR,C","sources":["pages/BooksPage.jsx"],"sourcesContent":["\nconst BooksPage = () => {\n  return <div>BooksPage</div>;\n}\nexport default BooksPage;\n"],"names":[],"sourceRoot":""}

@@ -1,13 +1,27 @@
 {
   "files": {
     "main.css": "/prometheus-x-course-task/static/css/main.7acaea2f.css",
-    "main.js": "/prometheus-x-course-task/static/js/main.5c239258.js",
+    "main.js": "/prometheus-x-course-task/static/js/main.0164f807.js",
+    "static/js/165.0cd3f99f.chunk.js": "/prometheus-x-course-task/static/js/165.0cd3f99f.chunk.js",
+    "static/js/219.af72d28c.chunk.js": "/prometheus-x-course-task/static/js/219.af72d28c.chunk.js",
+    "static/js/366.01816aac.chunk.js": "/prometheus-x-course-task/static/js/366.01816aac.chunk.js",
+    "static/js/690.2d93de0c.chunk.js": "/prometheus-x-course-task/static/js/690.2d93de0c.chunk.js",
+    "static/js/261.df6a6946.chunk.js": "/prometheus-x-course-task/static/js/261.df6a6946.chunk.js",
+    "static/js/306.1ab8c22e.chunk.js": "/prometheus-x-course-task/static/js/306.1ab8c22e.chunk.js",
+    "static/js/520.04a658bd.chunk.js": "/prometheus-x-course-task/static/js/520.04a658bd.chunk.js",
     "index.html": "/prometheus-x-course-task/index.html",
     "main.7acaea2f.css.map": "/prometheus-x-course-task/static/css/main.7acaea2f.css.map",
-    "main.5c239258.js.map": "/prometheus-x-course-task/static/js/main.5c239258.js.map"
+    "main.0164f807.js.map": "/prometheus-x-course-task/static/js/main.0164f807.js.map",
+    "165.0cd3f99f.chunk.js.map": "/prometheus-x-course-task/static/js/165.0cd3f99f.chunk.js.map",
+    "219.af72d28c.chunk.js.map": "/prometheus-x-course-task/static/js/219.af72d28c.chunk.js.map",
+    "366.01816aac.chunk.js.map": "/prometheus-x-course-task/static/js/366.01816aac.chunk.js.map",
+    "690.2d93de0c.chunk.js.map": "/prometheus-x-course-task/static/js/690.2d93de0c.chunk.js.map",
+    "261.df6a6946.chunk.js.map": "/prometheus-x-course-task/static/js/261.df6a6946.chunk.js.map",
+    "306.1ab8c22e.chunk.js.map": "/prometheus-x-course-task/static/js/306.1ab8c22e.chunk.js.map",
+    "520.04a658bd.chunk.js.map": "/prometheus-x-course-task/static/js/520.04a658bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.5c239258.js"
+    "static/js/main.0164f807.js"
   ]
 }

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprometheus_x_course_task=self.webpackChunkprometheus_x_course_task||[]).push([[261],{261:function(e,s,u){u.r(s);var r=u(184);s.default=function(){return(0,r.jsx)("div",{children:"OneBookPage"})}}}]);
+//# sourceMappingURL=261.df6a6946.chunk.js.map
