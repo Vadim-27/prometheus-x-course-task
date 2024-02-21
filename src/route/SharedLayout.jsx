@@ -3,7 +3,6 @@ import { lazy, Suspense } from 'react';
 
 import Layout from './Layout';
 
-const Heder = lazy(() => import('modules/Heder/Heder'));
 const Footer = lazy(() => import('modules/Footer/Footer'));
 const BooksPage = lazy(() => import('pages/BooksPage'));
 const SingInPage = lazy(() => import('pages/SingInPage'));
@@ -14,7 +13,6 @@ const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
 const SharedLayout = () => {
   return (
     <Suspense fallback={<p>...loading</p>}>
-      {/* <Heder /> */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Navigate to="/singin" />} />
