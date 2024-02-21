@@ -1,0 +1,46 @@
+
+.wrapper{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapperLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+font-family: "DM-Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+}
+.userBlock{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cart{
+  width: 48px;
+  height: 48px;
+}
+.avatar{
+  width: 48px;
+  height: 48px;
+}
+.avatarImg{
+   width: 48px;
+  height: 48px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.avatarName{
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+    text-overflow: ellipsis;
+  font-family: "DM-Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
