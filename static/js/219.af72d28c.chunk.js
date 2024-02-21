@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprometheus_x_course_task=self.webpackChunkprometheus_x_course_task||[]).push([[219],{219:function(e,s,u){u.r(s);var r=u(184);s.default=function(){return(0,r.jsx)("div",{children:"Footer"})}}}]);
-//# sourceMappingURL=219.af72d28c.chunk.js.map

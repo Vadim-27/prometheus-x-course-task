@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprometheus_x_course_task=self.webpackChunkprometheus_x_course_task||[]).push([[91],{91:function(e,r,o){o.r(r),o.d(r,{default:function(){return u}});var t="Footer_wrapperFooter__Keg9I",s="Footer_footerLink__qLoLX",n=o(184),u=function(){return(0,n.jsx)("footer",{className:t,children:(0,n.jsx)("a",{className:s,href:"https://prometheus.org.ua/",target:"_blank",rel:"noopener noreferrer",children:"\u0412\u0438\u043a\u043e\u043d\u0430\u043d\u043e \u0432 Prometheus \xa9 2022"})})}}}]);
+//# sourceMappingURL=91.2c3b6d92.chunk.js.map

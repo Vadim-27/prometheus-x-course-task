@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprometheus_x_course_task=self.webpackChunkprometheus_x_course_task||[]).push([[165],{165:function(e,s,u){u.r(s);var r=u(184);s.default=function(){return(0,r.jsx)("div",{children:"Heder"})}}}]);
-//# sourceMappingURL=165.0cd3f99f.chunk.js.map
