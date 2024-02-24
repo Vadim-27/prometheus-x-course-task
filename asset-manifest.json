@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/prometheus-x-course-task/static/css/main.d55008c7.css",
-    "main.js": "/prometheus-x-course-task/static/js/main.db277b00.js",
+    "main.js": "/prometheus-x-course-task/static/js/main.2dd46250.js",
     "static/css/91.f2ac1571.chunk.css": "/prometheus-x-course-task/static/css/91.f2ac1571.chunk.css",
     "static/js/91.2c3b6d92.chunk.js": "/prometheus-x-course-task/static/js/91.2c3b6d92.chunk.js",
     "static/js/366.01816aac.chunk.js": "/prometheus-x-course-task/static/js/366.01816aac.chunk.js",
     "static/css/113.a62b67a3.chunk.css": "/prometheus-x-course-task/static/css/113.a62b67a3.chunk.css",
-    "static/js/113.4f410fb7.chunk.js": "/prometheus-x-course-task/static/js/113.4f410fb7.chunk.js",
+    "static/js/113.8e9ede63.chunk.js": "/prometheus-x-course-task/static/js/113.8e9ede63.chunk.js",
     "static/js/261.df6a6946.chunk.js": "/prometheus-x-course-task/static/js/261.df6a6946.chunk.js",
     "static/js/306.1ab8c22e.chunk.js": "/prometheus-x-course-task/static/js/306.1ab8c22e.chunk.js",
     "static/css/837.1b1aeb8f.chunk.css": "/prometheus-x-course-task/static/css/837.1b1aeb8f.chunk.css",
@@ -20,12 +20,12 @@
     "static/media/imageNotFound.png": "/prometheus-x-course-task/static/media/imageNotFound.298b98203c3825c61303.png",
     "index.html": "/prometheus-x-course-task/index.html",
     "main.d55008c7.css.map": "/prometheus-x-course-task/static/css/main.d55008c7.css.map",
-    "main.db277b00.js.map": "/prometheus-x-course-task/static/js/main.db277b00.js.map",
+    "main.2dd46250.js.map": "/prometheus-x-course-task/static/js/main.2dd46250.js.map",
     "91.f2ac1571.chunk.css.map": "/prometheus-x-course-task/static/css/91.f2ac1571.chunk.css.map",
     "91.2c3b6d92.chunk.js.map": "/prometheus-x-course-task/static/js/91.2c3b6d92.chunk.js.map",
     "366.01816aac.chunk.js.map": "/prometheus-x-course-task/static/js/366.01816aac.chunk.js.map",
     "113.a62b67a3.chunk.css.map": "/prometheus-x-course-task/static/css/113.a62b67a3.chunk.css.map",
-    "113.4f410fb7.chunk.js.map": "/prometheus-x-course-task/static/js/113.4f410fb7.chunk.js.map",
+    "113.8e9ede63.chunk.js.map": "/prometheus-x-course-task/static/js/113.8e9ede63.chunk.js.map",
     "261.df6a6946.chunk.js.map": "/prometheus-x-course-task/static/js/261.df6a6946.chunk.js.map",
     "306.1ab8c22e.chunk.js.map": "/prometheus-x-course-task/static/js/306.1ab8c22e.chunk.js.map",
     "837.1b1aeb8f.chunk.css.map": "/prometheus-x-course-task/static/css/837.1b1aeb8f.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.d55008c7.css",
-    "static/js/main.db277b00.js"
+    "static/js/main.2dd46250.js"
   ]
 }
