@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom';
 import Heder from 'modules/Heder/Heder';
 
-const Layout = () => {
+const Layout = ({ stateLogin, onLogout }) => {
   return (
     <>
       <header>
-        <Heder />
+        <Heder stateLogin={stateLogin} onLogout={onLogout} />
       </header>
       <main>
         <Outlet />
