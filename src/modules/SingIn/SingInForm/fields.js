@@ -5,6 +5,7 @@ const fields = {
     required: true,
     label: 'Username',
     placeholder: ' type Username',
+    pattern: '^.{4,16}$',
   },
 };
 
