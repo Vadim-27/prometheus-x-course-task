@@ -1,33 +1,40 @@
 {
   "files": {
     "main.css": "/prometheus-x-course-task/static/css/main.d55008c7.css",
-    "main.js": "/prometheus-x-course-task/static/js/main.ada27184.js",
+    "main.js": "/prometheus-x-course-task/static/js/main.db277b00.js",
     "static/css/91.f2ac1571.chunk.css": "/prometheus-x-course-task/static/css/91.f2ac1571.chunk.css",
     "static/js/91.2c3b6d92.chunk.js": "/prometheus-x-course-task/static/js/91.2c3b6d92.chunk.js",
     "static/js/366.01816aac.chunk.js": "/prometheus-x-course-task/static/js/366.01816aac.chunk.js",
-    "static/css/159.d139b033.chunk.css": "/prometheus-x-course-task/static/css/159.d139b033.chunk.css",
-    "static/js/159.00d2a3ab.chunk.js": "/prometheus-x-course-task/static/js/159.00d2a3ab.chunk.js",
+    "static/css/113.a62b67a3.chunk.css": "/prometheus-x-course-task/static/css/113.a62b67a3.chunk.css",
+    "static/js/113.4f410fb7.chunk.js": "/prometheus-x-course-task/static/js/113.4f410fb7.chunk.js",
     "static/js/261.df6a6946.chunk.js": "/prometheus-x-course-task/static/js/261.df6a6946.chunk.js",
     "static/js/306.1ab8c22e.chunk.js": "/prometheus-x-course-task/static/js/306.1ab8c22e.chunk.js",
-    "static/js/520.04a658bd.chunk.js": "/prometheus-x-course-task/static/js/520.04a658bd.chunk.js",
+    "static/css/837.1b1aeb8f.chunk.css": "/prometheus-x-course-task/static/css/837.1b1aeb8f.chunk.css",
+    "static/js/837.ce3126f9.chunk.js": "/prometheus-x-course-task/static/js/837.ce3126f9.chunk.js",
+    "static/js/861.46e315ae.chunk.js": "/prometheus-x-course-task/static/js/861.46e315ae.chunk.js",
+    "static/js/712.c03a7b57.chunk.js": "/prometheus-x-course-task/static/js/712.c03a7b57.chunk.js",
     "static/media/DMSans_18pt-Regular.ttf": "/prometheus-x-course-task/static/media/DMSans_18pt-Regular.2c8600ab0e9535150736.ttf",
     "static/media/DMSans-Medium.ttf": "/prometheus-x-course-task/static/media/DMSans-Medium.64a5ff1b212ef8a741e5.ttf",
     "static/media/DMSans-Bold.ttf": "/prometheus-x-course-task/static/media/DMSans-Bold.49af0e9e85f659857710.ttf",
     "static/media/avatar.png": "/prometheus-x-course-task/static/media/avatar.0d14c6999b4a5c8e86a7.png",
+    "static/media/imageNotFound.png": "/prometheus-x-course-task/static/media/imageNotFound.298b98203c3825c61303.png",
     "index.html": "/prometheus-x-course-task/index.html",
     "main.d55008c7.css.map": "/prometheus-x-course-task/static/css/main.d55008c7.css.map",
-    "main.ada27184.js.map": "/prometheus-x-course-task/static/js/main.ada27184.js.map",
+    "main.db277b00.js.map": "/prometheus-x-course-task/static/js/main.db277b00.js.map",
     "91.f2ac1571.chunk.css.map": "/prometheus-x-course-task/static/css/91.f2ac1571.chunk.css.map",
     "91.2c3b6d92.chunk.js.map": "/prometheus-x-course-task/static/js/91.2c3b6d92.chunk.js.map",
     "366.01816aac.chunk.js.map": "/prometheus-x-course-task/static/js/366.01816aac.chunk.js.map",
-    "159.d139b033.chunk.css.map": "/prometheus-x-course-task/static/css/159.d139b033.chunk.css.map",
-    "159.00d2a3ab.chunk.js.map": "/prometheus-x-course-task/static/js/159.00d2a3ab.chunk.js.map",
+    "113.a62b67a3.chunk.css.map": "/prometheus-x-course-task/static/css/113.a62b67a3.chunk.css.map",
+    "113.4f410fb7.chunk.js.map": "/prometheus-x-course-task/static/js/113.4f410fb7.chunk.js.map",
     "261.df6a6946.chunk.js.map": "/prometheus-x-course-task/static/js/261.df6a6946.chunk.js.map",
     "306.1ab8c22e.chunk.js.map": "/prometheus-x-course-task/static/js/306.1ab8c22e.chunk.js.map",
-    "520.04a658bd.chunk.js.map": "/prometheus-x-course-task/static/js/520.04a658bd.chunk.js.map"
+    "837.1b1aeb8f.chunk.css.map": "/prometheus-x-course-task/static/css/837.1b1aeb8f.chunk.css.map",
+    "837.ce3126f9.chunk.js.map": "/prometheus-x-course-task/static/js/837.ce3126f9.chunk.js.map",
+    "861.46e315ae.chunk.js.map": "/prometheus-x-course-task/static/js/861.46e315ae.chunk.js.map",
+    "712.c03a7b57.chunk.js.map": "/prometheus-x-course-task/static/js/712.c03a7b57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d55008c7.css",
-    "static/js/main.ada27184.js"
+    "static/js/main.db277b00.js"
   ]
 }

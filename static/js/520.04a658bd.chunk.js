@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprometheus_x_course_task=self.webpackChunkprometheus_x_course_task||[]).push([[520],{520:function(e,s,u){u.r(s);var r=u(184);s.default=function(){return(0,r.jsx)("div",{children:(0,r.jsx)("p",{children:"Not Found Page"})})}}}]);
-//# sourceMappingURL=520.04a658bd.chunk.js.map

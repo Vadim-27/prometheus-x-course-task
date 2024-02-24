@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprometheus_x_course_task=self.webpackChunkprometheus_x_course_task||[]).push([[712],{712:function(s,e,t){t.r(e);var u=t(689),n=t(184);e.default=function(s){return s.stateLogin?(0,n.jsx)(u.j3,{}):(0,n.jsx)(u.Fg,{to:"/singin"})}}}]);
+//# sourceMappingURL=712.c03a7b57.chunk.js.map

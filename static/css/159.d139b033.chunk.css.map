@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/159.d139b033.chunk.css","mappings":"AAAA,qBAEE,mBADA,YACA","sources":["pages/page.module.scss"],"sourcesContent":[".wrapper{\n  height: 100vh;\n  background: thistle;\n}\n"],"names":[],"sourceRoot":""}
