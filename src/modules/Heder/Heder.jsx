@@ -4,7 +4,7 @@ import AvatarImg from '../../assete/png/avatar.png';
 
 import css from './Heder.module.scss';
 
-const Heder = () => {
+const Heder = ({ stateLogin, onLogout }) => {
   return (
     <div className={css.wrapper}>
       <div className={css.wrapperLogo}>
@@ -12,14 +12,16 @@ const Heder = () => {
         <span>/</span>
         <p>Bulanyi Vadym</p>
       </div>
-      <div className={css.userBlock}>
-        <div className={css.cart}>
-          <SvgSelector id="cart" />
+      {stateLogin && (
+        <div className={css.userBlock}>
+          <div className={css.cart}>
+            <SvgSelector id="cart" />
+          </div>
+          <ButtonPrimary onClick={onLogout}>Sing-Out</ButtonPrimary>
+          <img src={AvatarImg} alt="avatar" className={css.avatarImg} />
+          <p className={css.avatarName}>{stateLogin?.userName}</p>
         </div>
-        <ButtonPrimary>Sing-Out</ButtonPrimary>
-        <img src={AvatarImg} alt="avatar" className={css.avatarImg} />
-        <p className={css.avatarName}>Name</p>
-      </div>
+      )}
     </div>
   );
 };
