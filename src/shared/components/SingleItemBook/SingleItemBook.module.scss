@@ -1,0 +1,34 @@
+.wrapperCardBook {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 320px;
+  padding: 20px;
+  border: 2px solid var(--primary-black);
+}
+.wrapperImg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.image {
+  width: 320px;
+  min-height: 480px;
+  object-fit: contain;
+}
+.bookName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bookAuthor {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wrapperBtn {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
