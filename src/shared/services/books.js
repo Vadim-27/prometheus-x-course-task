@@ -8,7 +8,7 @@ const data = {
       price: 10.99,
       image:
         'https://courses.prometheus.org.ua/asset-v1:Ciklum+FEB101+2022_T3+type@asset+block@javascript_the_definitive_guide.jpg',
-      title: 'JavaScript: The Definitive Guide, 7th Edition',
+      title: 'JavaScript The Definitive Guide, 7th Edition',
       level: 'Beginner',
       tags: ['core', 'frontend', 'javascript'],
       amount: 42,
