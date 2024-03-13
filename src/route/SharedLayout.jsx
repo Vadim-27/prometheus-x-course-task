@@ -34,7 +34,7 @@ const SharedLayout = () => {
     setStateLogin(null);
     localStorage.removeItem('userLogin');
   }
- 
+
   return (
     <Suspense fallback={<p>...loading</p>}>
       <Routes>
@@ -51,7 +51,7 @@ const SharedLayout = () => {
           </Route>
           <Route element={<PrivateRoute stateLogin={stateLogin} />}>
             <Route path="/books" element={<BooksPage />} />
-            <Route path="/books/:id" element={<OneBookPage />} />
+            <Route path="/book/:id" element={<OneBookPage />} />
             <Route path="/cart" element={<CartPage />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
