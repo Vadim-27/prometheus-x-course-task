@@ -10,7 +10,7 @@ const SingleItemBook = ({ id, title, image, author, price }) => {
   return (
     <div className={css.wrapperCardBook}>
       <div className={css.wrapperImg}>
-        <img src={imgSrc} alt="Book" className={css.image} width={280} />
+        <img src={imgSrc} alt="Book" className={css.image}  />
       </div>
       <p className={css.bookName}>Title: {title}</p>
       <p className={css.bookAuthor}>Author: {author}</p>

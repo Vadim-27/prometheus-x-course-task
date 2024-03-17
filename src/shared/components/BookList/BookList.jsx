@@ -2,8 +2,8 @@ import SingleItemBook from '../SingleItemBook/SingleItemBook';
 
 const BookList = ({ items }) => {
   const element =
-    items.books && items.books.length
-      ? items.books.map(({ id, title, image, author, price }) => {
+    items && items.length
+      ? items.map(({ id, title, image, author, price }) => {
           return (
             <li key={id}>
               <SingleItemBook

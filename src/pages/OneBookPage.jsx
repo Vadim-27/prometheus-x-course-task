@@ -1,5 +1,8 @@
+import Book from "modules/Book/Book";
 
 const OneBookPage = () => {
-  return <div>OneBookPage</div>;
+  return <div>
+    <Book/>
+  </div>;
 };
 export default OneBookPage;

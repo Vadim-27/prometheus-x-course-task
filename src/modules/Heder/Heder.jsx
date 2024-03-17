@@ -6,7 +6,7 @@ import css from './Heder.module.scss';
 
 const Heder = ({ stateLogin, onLogout }) => {
   return (
-    <div className={css.wrapper}>
+    <div className={`${css.wrapper} ${'container'}`}>
       <div className={css.wrapperLogo}>
         <p>X-course task</p>
         <span>/</span>
