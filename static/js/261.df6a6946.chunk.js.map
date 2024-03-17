@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/261.df6a6946.chunk.js","mappings":"4JAIA,UAHoB,WAClB,OAAO,wCACR,C","sources":["pages/OneBookPage.jsx"],"sourcesContent":["\nconst OneBookPage = () => {\n  return <div>OneBookPage</div>;\n};\nexport default OneBookPage;\n"],"names":[],"sourceRoot":""}

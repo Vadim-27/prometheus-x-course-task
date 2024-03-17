@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprometheus_x_course_task=self.webpackChunkprometheus_x_course_task||[]).push([[306],{1306:function(e,s,u){u.r(s);var r=u(184);s.default=function(){return(0,r.jsx)("div",{children:"CartPage"})}}}]);
+//# sourceMappingURL=306.04836c22.chunk.js.map
