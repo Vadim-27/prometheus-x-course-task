@@ -14,12 +14,12 @@ const Book = () => {
   dispatch(fetchAllBooks(data));
   const { id } = useParams();
   const isBooks = useSelector(getAllBooks);
-  console.log('isBooks', isBooks);
+  
   // if (!isBooks) {
   //   return <div>Book not found</div>;
   // }
   const element = isBooks.find(book => book.id === parseInt(id));
-  console.log('element', element);
+
   if (!element) {
     return <div>Book not found</div>;
   }
@@ -46,7 +46,7 @@ const Book = () => {
             </ul>
           </div>
         </div>
-        <CounterBook price={price} />
+        <CounterBook price={price} id={id} title={title} />
       </div>
       <p className={css.bookDescription}>Description: {description}</p>
     </div>
