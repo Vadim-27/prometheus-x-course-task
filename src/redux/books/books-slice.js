@@ -1,31 +1,62 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
-import { fetchAllBooks } from "./books-operation";
-console.log('fetchAllBooks', fetchAllBooks());
+import { fetchAllBooks, fetchCart, fetchCleanCart } from './books-operation';
+
 const initialState = {
   items: [],
-  cart:[],
+  cart: [],
   loading: false,
   error: null,
-}
+};
 
 const booksSlice = createSlice({
-  name: "books",
+  name: 'books',
   initialState,
-  extraReducers: (builder) => {
+  extraReducers: builder => {
     builder
       .addCase(fetchAllBooks.pending, store => {
         store.loading = true;
       })
       .addCase(fetchAllBooks.fulfilled, (store, { payload }) => {
-        console.log('payload', payload);
         store.loading = false;
         store.items = payload.books;
       })
-    .addCase(fetchAllBooks.rejected, (store, {payload} )=> {
-      store.loading = false;
-      store.error = payload;
+      .addCase(fetchAllBooks.rejected, (store, { payload }) => {
+        store.loading = false;
+        store.error = payload;
       })
-  }
-})
+      .addCase(fetchCart.pending, store => {
+        store.loading = true;
+      })
+      .addCase(fetchCart.fulfilled, (store, { payload }) => {
+
+        store.loading = false;
+        const uniqueData = store.cart.filter(item => item.id !== payload.id);
+
+        uniqueData.push(payload);
+
+        localStorage.setItem('cart', JSON.stringify(uniqueData));
+
+        store.cart = uniqueData;
+      })
+      .addCase(fetchCart.rejected, (store, { payload }) => {
+        store.loading = false;
+        store.error = payload;
+      })
+      .addCase(fetchCleanCart.pending, store => {
+        store.loading = true;
+      })
+      .addCase(fetchCleanCart.fulfilled, (store, { payload }) => {
+        console.log('payload', payload);
+        store.loading = false;
+
+
+        store.cart = payload;
+      })
+      .addCase(fetchCleanCart.rejected, (store, { payload }) => {
+        store.loading = false;
+        store.error = payload;
+      });
+  },
+});
 export default booksSlice.reducer;

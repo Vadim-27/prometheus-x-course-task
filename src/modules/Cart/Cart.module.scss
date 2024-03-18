@@ -1,0 +1,23 @@
+.btnBought{
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.cartItem{
+  display: flex;
+  padding: 10px;
+  border: 2px solid black;
+}
+.cartItem:not(:first-child) {
+  border-top: none;
+}
+
+.cartItem_totalPrice{
+  margin-left: auto;
+}
+

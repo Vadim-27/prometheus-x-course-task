@@ -1,14 +1,30 @@
-import { Link } from 'react-router-dom';
+
 import { useState, useEffect } from 'react';
+import {  useDispatch } from 'react-redux';
 import ButtonPrimary from 'shared/components/Button/ButtonPrimary/ButtonPrimary';
+import { fetchCart } from '../../../redux/books/books-operation';
 
 import css from './CounterBook.module.scss';
 
-const CounterBook = ({ price  }) => {
+const CounterBook = ({ price, id, title }) => {
   const [quantity, setQuantity] = useState({
     count: 1,
     totalPrice: price,
   });
+
+  const dispatch = useDispatch();
+  const addInCart = () => {
+    dispatch(
+    fetchCart({
+      id: id,
+      title: title,
+      price: price,
+      count: quantity.count,
+      totalPrice: quantity.totalPrice,
+    })
+  );
+  }
+
 
   useEffect(() => {
     const storedCount = localStorage.getItem('count');
@@ -17,9 +33,7 @@ const CounterBook = ({ price  }) => {
         ...prevQuantity,
         count: parseInt(storedCount),
         totalPrice: parseInt(storedCount) * price,
-      }
-
-      ));
+      }));
     }
     return () => {
       localStorage.removeItem('count');
@@ -27,12 +41,12 @@ const CounterBook = ({ price  }) => {
   }, [price]);
 
   const handleQuantityChange = e => {
-     const newCount = parseInt(e.target.value);
-     const newTotalPrice = newCount * price;
+    const newCount = parseInt(e.target.value);
+    const newTotalPrice = newCount * price;
 
     setQuantity({
       count: newCount,
-      totalPrice: newTotalPrice
+      totalPrice: newTotalPrice,
     });
     localStorage.setItem('count', newCount.toString());
   };
@@ -62,9 +76,9 @@ const CounterBook = ({ price  }) => {
         </li>
       </ul>
 
-      <Link className={css.wrapperButton} to={'/cart'}>
+      <div className={css.wrapperButton} onClick={addInCart}>
         <ButtonPrimary>Add to cart</ButtonPrimary>
-      </Link>
+      </div>
     </div>
   );
 };

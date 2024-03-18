@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import ButtonPrimary from 'shared/components/Button/ButtonPrimary/ButtonPrimary';
 import { SvgSelector } from 'shared/components/SvgSelector/SvgSelector';
 import AvatarImg from '../../assete/png/avatar.png';
@@ -14,9 +15,11 @@ const Heder = ({ stateLogin, onLogout }) => {
       </div>
       {stateLogin && (
         <div className={css.userBlock}>
-          <div className={css.cart}>
-            <SvgSelector id="cart" />
-          </div>
+          <Link className={css.wrapperButton} to={'/cart'}>
+            <div className={css.cart}>
+              <SvgSelector id="cart" />
+            </div>
+          </Link>
           <ButtonPrimary onClick={onLogout}>Sing-Out</ButtonPrimary>
           <img src={AvatarImg} alt="avatar" className={css.avatarImg} />
           <p className={css.avatarName}>{stateLogin?.userName}</p>

@@ -8,8 +8,32 @@ export const fetchAllBooks = createAsyncThunk(
   async (data, { rejectWithValue }) => {
     try {
       await data;
-      // const result =  dataBooks;
-      console.log('result', data);
+
+      return data;
+    } catch ({ response }) {
+      return rejectWithValue(response);
+    }
+  }
+);
+export const fetchCart = createAsyncThunk(
+  'books/Cart',
+  async (data, { rejectWithValue }) => {
+    try {
+      await data;
+
+      return data;
+    } catch ({ response }) {
+      return rejectWithValue(response);
+    }
+  }
+
+);
+export const fetchCleanCart = createAsyncThunk(
+  'books/CleanCart',
+  async (data, { rejectWithValue }) => {
+    try {
+      await data;
+
       return data;
     } catch ({ response }) {
       return rejectWithValue(response);
