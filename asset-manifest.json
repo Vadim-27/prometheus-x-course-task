@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/prometheus-x-course-task/static/css/main.cc00fa0b.css",
-    "main.js": "/prometheus-x-course-task/static/js/main.b4ee8eaf.js",
+    "main.js": "/prometheus-x-course-task/static/js/main.c8a54408.js",
     "static/css/91.f2ac1571.chunk.css": "/prometheus-x-course-task/static/css/91.f2ac1571.chunk.css",
     "static/js/91.2c200af2.chunk.js": "/prometheus-x-course-task/static/js/91.2c200af2.chunk.js",
     "static/css/909.2b944e28.chunk.css": "/prometheus-x-course-task/static/css/909.2b944e28.chunk.css",
-    "static/js/909.854b1e64.chunk.js": "/prometheus-x-course-task/static/js/909.854b1e64.chunk.js",
+    "static/js/909.ad345746.chunk.js": "/prometheus-x-course-task/static/js/909.ad345746.chunk.js",
     "static/css/258.9f81b04a.chunk.css": "/prometheus-x-course-task/static/css/258.9f81b04a.chunk.css",
     "static/js/258.5dcb72a4.chunk.js": "/prometheus-x-course-task/static/js/258.5dcb72a4.chunk.js",
     "static/css/698.425ebb94.chunk.css": "/prometheus-x-course-task/static/css/698.425ebb94.chunk.css",
-    "static/js/698.9df99dc6.chunk.js": "/prometheus-x-course-task/static/js/698.9df99dc6.chunk.js",
-    "static/js/306.04836c22.chunk.js": "/prometheus-x-course-task/static/js/306.04836c22.chunk.js",
+    "static/js/698.2862d871.chunk.js": "/prometheus-x-course-task/static/js/698.2862d871.chunk.js",
+    "static/css/484.ca19d319.chunk.css": "/prometheus-x-course-task/static/css/484.ca19d319.chunk.css",
+    "static/js/484.07e4d8ae.chunk.js": "/prometheus-x-course-task/static/js/484.07e4d8ae.chunk.js",
     "static/css/837.1b1aeb8f.chunk.css": "/prometheus-x-course-task/static/css/837.1b1aeb8f.chunk.css",
     "static/js/837.4e9ee926.chunk.js": "/prometheus-x-course-task/static/js/837.4e9ee926.chunk.js",
     "static/js/861.388db865.chunk.js": "/prometheus-x-course-task/static/js/861.388db865.chunk.js",
@@ -23,16 +24,17 @@
     "static/media/imageNotFound.png": "/prometheus-x-course-task/static/media/imageNotFound.298b98203c3825c61303.png",
     "index.html": "/prometheus-x-course-task/index.html",
     "main.cc00fa0b.css.map": "/prometheus-x-course-task/static/css/main.cc00fa0b.css.map",
-    "main.b4ee8eaf.js.map": "/prometheus-x-course-task/static/js/main.b4ee8eaf.js.map",
+    "main.c8a54408.js.map": "/prometheus-x-course-task/static/js/main.c8a54408.js.map",
     "91.f2ac1571.chunk.css.map": "/prometheus-x-course-task/static/css/91.f2ac1571.chunk.css.map",
     "91.2c200af2.chunk.js.map": "/prometheus-x-course-task/static/js/91.2c200af2.chunk.js.map",
     "909.2b944e28.chunk.css.map": "/prometheus-x-course-task/static/css/909.2b944e28.chunk.css.map",
-    "909.854b1e64.chunk.js.map": "/prometheus-x-course-task/static/js/909.854b1e64.chunk.js.map",
+    "909.ad345746.chunk.js.map": "/prometheus-x-course-task/static/js/909.ad345746.chunk.js.map",
     "258.9f81b04a.chunk.css.map": "/prometheus-x-course-task/static/css/258.9f81b04a.chunk.css.map",
     "258.5dcb72a4.chunk.js.map": "/prometheus-x-course-task/static/js/258.5dcb72a4.chunk.js.map",
     "698.425ebb94.chunk.css.map": "/prometheus-x-course-task/static/css/698.425ebb94.chunk.css.map",
-    "698.9df99dc6.chunk.js.map": "/prometheus-x-course-task/static/js/698.9df99dc6.chunk.js.map",
-    "306.04836c22.chunk.js.map": "/prometheus-x-course-task/static/js/306.04836c22.chunk.js.map",
+    "698.2862d871.chunk.js.map": "/prometheus-x-course-task/static/js/698.2862d871.chunk.js.map",
+    "484.ca19d319.chunk.css.map": "/prometheus-x-course-task/static/css/484.ca19d319.chunk.css.map",
+    "484.07e4d8ae.chunk.js.map": "/prometheus-x-course-task/static/js/484.07e4d8ae.chunk.js.map",
     "837.1b1aeb8f.chunk.css.map": "/prometheus-x-course-task/static/css/837.1b1aeb8f.chunk.css.map",
     "837.4e9ee926.chunk.js.map": "/prometheus-x-course-task/static/js/837.4e9ee926.chunk.js.map",
     "861.388db865.chunk.js.map": "/prometheus-x-course-task/static/js/861.388db865.chunk.js.map",
@@ -40,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.cc00fa0b.css",
-    "static/js/main.b4ee8eaf.js"
+    "static/js/main.c8a54408.js"
   ]
 }
