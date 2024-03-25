@@ -1,6 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { fetchAllBooks, fetchCart, fetchCleanCart } from './books-operation';
+import {
+  fetchAllBooks,
+  fetchCart,
+  fetchCleanCart,
+  putNewCountCart,
+  deleteItemCart,
+} from './books-operation';
 
 const initialState = {
   items: [],
@@ -29,7 +35,6 @@ const booksSlice = createSlice({
         store.loading = true;
       })
       .addCase(fetchCart.fulfilled, (store, { payload }) => {
-
         store.loading = false;
         const uniqueData = store.cart.filter(item => item.id !== payload.id);
 
@@ -47,13 +52,48 @@ const booksSlice = createSlice({
         store.loading = true;
       })
       .addCase(fetchCleanCart.fulfilled, (store, { payload }) => {
-        console.log('payload', payload);
         store.loading = false;
-
 
         store.cart = payload;
       })
       .addCase(fetchCleanCart.rejected, (store, { payload }) => {
+        store.loading = false;
+        store.error = payload;
+      })
+      .addCase(putNewCountCart.pending, store => {
+        store.loading = true;
+      })
+      .addCase(putNewCountCart.fulfilled, (store, { payload }) => {
+        store.loading = false;
+
+        const uniqueData = store.cart.filter(item => item.id !== payload.id);
+
+        uniqueData.push(payload);
+
+        localStorage.setItem('cart', JSON.stringify(uniqueData));
+
+        store.cart = uniqueData;
+      })
+      .addCase(putNewCountCart.rejected, (store, { payload }) => {
+        store.loading = false;
+        store.error = payload;
+      })
+      .addCase(deleteItemCart.pending, store => {
+        store.loading = true;
+      })
+      .addCase(deleteItemCart.fulfilled, (store, { payload }) => {
+        store.loading = false;
+
+        const uniqueData = store.cart.filter(item => item.id !== payload.id);
+
+
+
+        localStorage.setItem('cart', JSON.stringify(uniqueData));
+
+        store.cart = uniqueData;
+
+      })
+      .addCase(deleteItemCart.rejected, (store, { payload }) => {
         store.loading = false;
         store.error = payload;
       });
