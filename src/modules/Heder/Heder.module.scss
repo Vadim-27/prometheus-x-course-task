@@ -44,4 +44,26 @@ font-weight: 700;
   font-weight: 500;
   font-size: 24px;
 }
+.wrapperCart{
+  position: relative;
+}
+.wrapperCounterCart{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: "DM-Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
