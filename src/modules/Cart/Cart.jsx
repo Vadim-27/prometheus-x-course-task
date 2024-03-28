@@ -14,10 +14,7 @@ const Cart = () => {
   const isCart = useSelector(getCart);
   const cartLocalData = localStorage.getItem('cart');
   const [cartData, setCartData] = useState([]);
-  // const [quantity, setQuantity] = useState({
-  //   count: 1,
-  //   totalPrice: price,
-  // });
+
 
 
   useEffect(() => {
@@ -105,7 +102,7 @@ const allTotal = cartData.reduce((total, { totalPrice }) => {
 }, 0);
 
   return (
-    <div className="container">
+    <div className={`${css.section} ${'container'}`}>
       <button
         type="button"
         className={css.btnBought}

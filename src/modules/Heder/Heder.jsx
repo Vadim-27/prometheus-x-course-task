@@ -34,7 +34,7 @@ const Heder = ({ stateLogin, onLogout }) => {
           <Link className={css.wrapperCart} to={'/cart'}>
           {allCount>0 &&<div className={css.wrapperCounterCart}>
             <p>{allCount}</p>
-            {/* <CounterCart allCount={count} /> */}
+            
           </div>}
 
             <div className={css.cart}>
