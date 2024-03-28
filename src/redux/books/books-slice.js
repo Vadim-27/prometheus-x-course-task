@@ -25,7 +25,7 @@ const booksSlice = createSlice({
       })
       .addCase(fetchAllBooks.fulfilled, (store, { payload }) => {
         store.loading = false;
-        store.items = payload.books;
+        store.items = payload;
       })
       .addCase(fetchAllBooks.rejected, (store, { payload }) => {
         store.loading = false;
