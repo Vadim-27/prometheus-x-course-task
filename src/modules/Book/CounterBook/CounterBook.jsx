@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import {  useDispatch } from 'react-redux';
-import ButtonPrimary from 'shared/components/Button/ButtonPrimary/ButtonPrimary';
+import ButtonPrimary from '../../../shared/components/Button/ButtonPrimary/ButtonPrimary';
 import { fetchCart } from '../../../redux/books/books-operation';
 
 import css from './CounterBook.module.scss';
@@ -64,7 +64,7 @@ const CounterBook = ({ price, id, title }) => {
             className={css.input}
             type="number"
             min="1"
-            max="100"
+            max="42"
             step="1"
             value={quantity.count}
             onChange={handleQuantityChange}

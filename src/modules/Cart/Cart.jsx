@@ -22,8 +22,9 @@ const Cart = () => {
       isCart.length > 0 ? isCart : JSON.parse(cartLocalData) || [];
     setCartData(updatedCartData);
   }, [isCart, cartLocalData]);
+
    const handleIncrement = ({ id, title, count, price }) => {
-     let newCount = count + 1;
+     let newCount = count < 42 ? count + 1 : 42;
      let newTotalPrice = newCount * price;
      dispatch(
        putNewCountCart({
@@ -76,12 +77,12 @@ const Cart = () => {
         >
           +
         </button>
-        <p className={css.cartItem_totalPrice}>Total price, ${totalPrice}</p>
+        <p className={css.cartItem_totalPrice}>
+          Total price, ${totalPrice.toFixed(2)}
+        </p>
         <div
           className={css.wrapperItemTrash}
-          onClick={() =>
-            handleDelete({ id })
-          }
+          onClick={() => handleDelete({ id })}
         >
           <SvgSelector id="trash" />
         </div>
@@ -103,15 +104,17 @@ const allTotal = cartData.reduce((total, { totalPrice }) => {
 
   return (
     <div className={`${css.section} ${'container'}`}>
-      <button
-        type="button"
-        className={css.btnBought}
-        onClick={handleCleanLocal}
-      >
-        Purchase
-      </button>
-      <ul>{element}</ul>
-      <p className={css.totalPrice}>Total price, $ {allTotal} </p>
+      <>
+        <button
+          type="button"
+          className={css.btnBought}
+          onClick={handleCleanLocal}
+        >
+          Purchase
+        </button>
+        <ul>{element}</ul>
+        <p className={css.totalPrice}>Total price, $ {allTotal.toFixed(2)} </p>
+      </>
     </div>
   );
 };
