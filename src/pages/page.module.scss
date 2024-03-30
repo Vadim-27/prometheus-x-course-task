@@ -1,14 +1,14 @@
-.wrapper{
-  height: 100vh;
-  background: thistle;
-}
+// .wrapperSingInPage{
 
-.notFoundPage{
-  height: 100vh;
-  margin: auto;
+//   // background: thistle;
+// }
+
+.notFoundPage {
+  height: calc(100vh - (148px + 128px));
+  background-color: rgb(242, 245, 247);
 }
-.notFoundPageImg{
-  margin-top: 120px;
+.notFoundPageImg {
+  padding-top: 80px;
   margin-left: auto;
   margin-right: auto;
 }

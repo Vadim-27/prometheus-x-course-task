@@ -13,7 +13,6 @@ const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
 const PublicRoute = lazy(() => import('./PublicRoute'));
 const PrivateRoute = lazy(() => import('./PrivateRoute'));
 
-
 const SharedLayout = () => {
   const getUserLocalStorage = () => {
     const storedData = localStorage.getItem('userLogin');
@@ -21,19 +20,17 @@ const SharedLayout = () => {
   };
   const [stateLogin, setStateLogin] = useState(getUserLocalStorage);
 
-
-
   useEffect(() => {
     localStorage.setItem('userLogin', JSON.stringify(stateLogin));
   }, [stateLogin]);
 
   const handleLogin = data => {
     setStateLogin(data);
-  }
+  };
   const handleLogOut = () => {
     setStateLogin(null);
     localStorage.removeItem('userLogin');
-  }
+  };
 
   return (
     <Suspense fallback={<p>...loading</p>}>

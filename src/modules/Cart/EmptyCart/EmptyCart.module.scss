@@ -1,0 +1,46 @@
+.titleEmptyCart{
+  margin-top: 50px;
+   font-family: "DM-Sans";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+.textEmptyCart{
+  margin-top: 20px;
+  font-family: "DM-Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+}
+.linkBtn{
+  display: block;
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.btnEmptyCart{
+
+  width: 100px;
+  height: 100px;
+  padding:  10px 15px;
+  font-family: "DM-Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: var(--primary-grey);
+  border: 2px solid rgb(35, 29, 29);
+  border-radius: 50%;
+
+  &:hover,
+  &:active{
+        background-color: var(--primary-grey-darken);
+    
+    }
+
+
+
+}

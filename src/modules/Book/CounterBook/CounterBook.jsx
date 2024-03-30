@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from 'react';
-import {  useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import ButtonPrimary from '../../../shared/components/Button/ButtonPrimary/ButtonPrimary';
 import { fetchCart } from '../../../redux/books/books-operation';
 
@@ -15,16 +14,15 @@ const CounterBook = ({ price, id, title }) => {
   const dispatch = useDispatch();
   const addInCart = () => {
     dispatch(
-    fetchCart({
-      id: id,
-      title: title,
-      price: price,
-      count: quantity.count,
-      totalPrice: quantity.totalPrice,
-    })
-  );
-  }
-
+      fetchCart({
+        id: id,
+        title: title,
+        price: price,
+        count: quantity.count,
+        totalPrice: quantity.totalPrice,
+      })
+    );
+  };
 
   useEffect(() => {
     const storedCount = localStorage.getItem('count');

@@ -1,17 +1,17 @@
-
 .section {
   min-height: calc(100vh - (148px + 128px));
+  background-color: rgb(242, 245, 247);
 }
 
-.wrapperInput{
+.wrapperInput {
   display: flex;
   margin-bottom: 20px;
   gap: 20px;
-
 }
-.textFilter{
-padding: 50px;
-  text-align: center; font-family: "DM-Sans";
+.textFilter {
+  padding: 50px;
+  text-align: center;
+  font-family: 'DM-Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;

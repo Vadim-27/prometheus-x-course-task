@@ -1,14 +1,11 @@
-.btn{
+.btn {
   min-width: 150px;
-  padding:  10px 15px;
+  padding: 10px 15px;
   background-color: var(--primary-grey);
   border: 2px solid rgb(35, 29, 29);
   border-radius: 5px;
   &:hover,
-  &:active{
-        background-color: var(--primary-grey-darken);
-        // border-color: darken(rgb(35, 29, 29), 20%);
-    }
-
-
+  &:active {
+    background-color: var(--primary-grey-darken);
+  }
 }

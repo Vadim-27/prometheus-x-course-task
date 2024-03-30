@@ -7,13 +7,13 @@ import { combineReducers } from '@reduxjs/toolkit';
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['token']
-}
+  whitelist: ['token'],
+};
 
 const persistBookReducer = persistReducer(persistConfig, booksSlice);
 
 const rootReducer = combineReducers({
   books: persistBookReducer,
-})
+});
 
 export default rootReducer;

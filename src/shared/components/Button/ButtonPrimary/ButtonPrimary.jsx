@@ -1,4 +1,3 @@
-
 import css from './ButtonPrimary.module.scss';
 
 const ButtonPrimary = ({ children, type = 'button', onClick }) => {
@@ -10,4 +9,3 @@ const ButtonPrimary = ({ children, type = 'button', onClick }) => {
 };
 
 export default ButtonPrimary;
-

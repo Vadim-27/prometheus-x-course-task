@@ -1,8 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-
-
-
 export const fetchAllBooks = createAsyncThunk(
   'books/AllBooks',
   async (data, { rejectWithValue }) => {
@@ -26,7 +23,6 @@ export const fetchCart = createAsyncThunk(
       return rejectWithValue(response);
     }
   }
-
 );
 export const fetchCleanCart = createAsyncThunk(
   'books/CleanCart',

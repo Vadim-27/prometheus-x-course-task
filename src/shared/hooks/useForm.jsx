@@ -1,5 +1,4 @@
-import { useCallback, useState } from "react";
-
+import { useCallback, useState } from 'react';
 
 const useForm = ({ onSubmit, initialState }) => {
   const [state, setState] = useState({ ...initialState });
