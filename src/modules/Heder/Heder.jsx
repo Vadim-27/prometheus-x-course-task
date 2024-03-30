@@ -6,7 +6,6 @@ import ButtonPrimary from 'shared/components/Button/ButtonPrimary/ButtonPrimary'
 import { SvgSelector } from 'shared/components/SvgSelector/SvgSelector';
 import AvatarImg from '../../assete/png/avatar.png';
 
-
 import css from './Heder.module.scss';
 
 const Heder = ({ stateLogin, onLogout }) => {
@@ -24,18 +23,21 @@ const Heder = ({ stateLogin, onLogout }) => {
   }, 0);
   return (
     <div className={`${css.wrapper} ${'container'}`}>
-      <div className={css.wrapperLogo}>
-        <p>X-course task</p>
-        <span>/</span>
-        <p>Bulanyi Vadym</p>
-      </div>
+      <Link to={'/books'}>
+        <div className={css.wrapperLogo}>
+          <p>X-course task</p>
+          <span>/</span>
+          <p>Bulanyi Vadym</p>
+        </div>
+      </Link>
       {stateLogin && (
         <div className={css.userBlock}>
           <Link className={css.wrapperCart} to={'/cart'}>
-          {allCount>0 &&<div className={css.wrapperCounterCart}>
-            <p>{allCount}</p>
-            
-          </div>}
+            {allCount > 0 && (
+              <div className={css.wrapperCounterCart}>
+                <p>{allCount}</p>
+              </div>
+            )}
 
             <div className={css.cart}>
               <SvgSelector id="cart" />

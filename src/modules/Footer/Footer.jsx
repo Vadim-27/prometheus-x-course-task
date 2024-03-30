@@ -2,7 +2,7 @@ import css from './Footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer className="container">
+    <footer className={`${css.wrapperFooter} ${'container'}`}>
       <a
         className={css.footerLink}
         href="https://prometheus.org.ua/"

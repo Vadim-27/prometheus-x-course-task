@@ -86,12 +86,9 @@ const booksSlice = createSlice({
 
         const uniqueData = store.cart.filter(item => item.id !== payload.id);
 
-
-
         localStorage.setItem('cart', JSON.stringify(uniqueData));
 
         store.cart = uniqueData;
-
       })
       .addCase(deleteItemCart.rejected, (store, { payload }) => {
         store.loading = false;

@@ -16,28 +16,10 @@ a {
 
 h1 {
   margin: 0;
-  // font-family: Poppins-Bold;
-  // font-size: 48px;
-  // line-height: 1.5;
-  // letter-spacing: 0;
-  // @media screen and (min-width: 768px) {
-  //   font-size: 96px;
-  // }
 }
 
 h2 {
   margin: 0;
-  font-family: DM-Sans;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-  @media screen and (min-width: 768px) {
-    font-size: 40px;
-  }
-  @media screen and (min-width: 1440px) {
-    font-size: 64px;
-  }
 }
 h3 {
   margin: 0;
@@ -69,21 +51,6 @@ img {
   height: auto;
 }
 
-// .ModalContainer {
-//   padding: 40px;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-// }
-
-// .BttonsWrapper {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-// }
-
 .container {
   box-sizing: border-box;
   padding: 32px 24px;
@@ -95,8 +62,8 @@ img {
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 1441px;
+    max-width: 1440px;
     padding: 50px 100px;
-    // padding-right: 100px;
+
   }
 }

@@ -1,6 +1,11 @@
 .form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+
+  @media screen and (min-width: 320px) {
+    width: 200px;
+  }
 }
 .btn {
   margin-top: 10px;
@@ -15,7 +20,7 @@
     // border-color: darken(rgb(35, 29, 29), 20%);
   }
 }
-.btnDisabled{
+.btnDisabled {
   margin-top: 10px;
   padding: 10px;
   border: 2px solid var(--primary-grey-darken);

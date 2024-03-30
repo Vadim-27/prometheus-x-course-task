@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import ButtonPrimary from "../Button/ButtonPrimary/ButtonPrimary";
+import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
 import defaultImage from '../../../assete/jpg/default2.jpg';
-import css from "./SingleItemBook.module.scss";
+import css from './SingleItemBook.module.scss';
 
 const SingleItemBook = ({ id, title, image, author, price }) => {
   const imgSrc = image ? image : defaultImage;
@@ -10,7 +10,7 @@ const SingleItemBook = ({ id, title, image, author, price }) => {
   return (
     <div className={css.wrapperCardBook}>
       <div className={css.wrapperImg}>
-        <img src={imgSrc} alt="Book" className={css.image}  />
+        <img src={imgSrc} alt="Book" className={css.image} />
       </div>
       <p className={css.bookName}>Title: {title}</p>
       <p className={css.bookAuthor}>Author: {author}</p>

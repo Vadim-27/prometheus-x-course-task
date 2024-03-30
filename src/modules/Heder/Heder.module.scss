@@ -1,53 +1,54 @@
-
-.wrapper{
+.wrapper {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  background: thistle;
 }
-.wrapperLogo{
+.wrapperLogo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-font-family: "DM-Sans";
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
+  font-family: 'DM-Sans';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--primary-black);
 }
-.userBlock{
+.userBlock {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-.cart{
+.cart {
   width: 48px;
   height: 48px;
 }
-.avatar{
+.avatar {
   width: 48px;
   height: 48px;
 }
-.avatarImg{
-   width: 48px;
+.avatarImg {
+  width: 48px;
   height: 48px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }
-.avatarName{
+.avatarName {
   max-width: 150px;
   white-space: nowrap;
   overflow: hidden;
-    text-overflow: ellipsis;
-  font-family: "DM-Sans";
+  text-overflow: ellipsis;
+  font-family: 'DM-Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
 }
-.wrapperCart{
+.wrapperCart {
   position: relative;
 }
-.wrapperCounterCart{
+.wrapperCounterCart {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -56,14 +57,13 @@ font-weight: 700;
   top: 10px;
   left: 50%;
   transform: translate(-50%);
-  font-family: "DM-Sans";
+  font-family: 'DM-Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  color: black;
+  color: var(--primary-black);
   text-align: center;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-
