@@ -3,9 +3,11 @@ import { useDispatch } from 'react-redux';
 import ButtonPrimary from '../../../shared/components/Button/ButtonPrimary/ButtonPrimary';
 import { fetchCart } from '../../../redux/books/books-operation';
 
+
 import css from './CounterBook.module.scss';
 
 const CounterBook = ({ price, id, title }) => {
+
   const [quantity, setQuantity] = useState({
     count: 1,
     totalPrice: price,

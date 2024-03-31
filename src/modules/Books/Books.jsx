@@ -7,9 +7,11 @@ import data from '../../shared/services/books';
 import FilterBooks from './FilterBooks/FilterBooks';
 import FilterByPriceBooks from './FilterByPriceBooks/FilterByPriceBooks';
 
+import { useTheme } from 'utils/providers/TemeProvider';
 import css from './Books.module.scss';
 
 const Books = () => {
+  const { isDark } = useTheme();
   const isBooks = useSelector(getAllBooks);
   const [filterDataState, setFilterDataState] = useState([]);
 
@@ -18,7 +20,11 @@ const Books = () => {
   }, [isBooks]);
 
   return (
-    <section className={`${css.section} ${'container'}`}>
+    <section
+      className={`${css.section} ${
+        isDark ? css.dark : css.light
+      } ${'container'}`}
+    >
       <div className={css.wrapperInput}>
         <FilterBooks data={isBooks} setFilterDataState={setFilterDataState} />
         <FilterByPriceBooks

@@ -1,6 +1,8 @@
+
+
 .btnBought {
   display: block;
- 
+
   margin-left: auto;
   margin-bottom: 20px;
    min-width: 150px;
@@ -29,6 +31,9 @@
 .cartItem:not(:first-child) {
   border-top: none;
 }
+.dark .cartItem {
+  border: 2px solid white;
+}
 
 .cartItemTitle {
   font-family: 'DM-Sans';
@@ -40,6 +45,9 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.cartItemTitle .dark{
+  color: white;
 }
 .cartItemPrice {
   margin-left: 20px;
@@ -93,4 +101,18 @@
 .wrapperItemTrash {
   margin-left: 10px;
   cursor: pointer;
+}
+
+
+
+.dark {
+  background-color: #23272f;
+  color: white;
+--primary-black: white;
+
+  border-bottom: 1px solid white;
+}
+
+.light {
+  background-color: rgb(242, 245, 247);
 }

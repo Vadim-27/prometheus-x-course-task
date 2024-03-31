@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const SvgSelector = ({ id }) => {
+export const SvgSelector = ({ id, styles }) => {
   switch (id) {
     case 'cart':
       return (
@@ -19,6 +19,7 @@ export const SvgSelector = ({ id }) => {
     case 'trash':
       return (
         <svg
+          
           width="20"
           height="20"
           viewBox="0 0 20 20"

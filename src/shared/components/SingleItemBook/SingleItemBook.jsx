@@ -2,13 +2,17 @@ import { Link } from 'react-router-dom';
 
 import ButtonPrimary from '../Button/ButtonPrimary/ButtonPrimary';
 import defaultImage from '../../../assete/jpg/default2.jpg';
+import { useTheme } from 'utils/providers/TemeProvider';
 import css from './SingleItemBook.module.scss';
 
 const SingleItemBook = ({ id, title, image, author, price }) => {
+  const { isDark } = useTheme();
   const imgSrc = image ? image : defaultImage;
 
   return (
-    <div className={css.wrapperCardBook}>
+    <div className={`${css.wrapperCardBook} ${
+        isDark ? css.dark : css.light
+      }`}>
       <div className={css.wrapperImg}>
         <img src={imgSrc} alt="Book" className={css.image} />
       </div>
