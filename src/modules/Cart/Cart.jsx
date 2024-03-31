@@ -9,10 +9,12 @@ import {
 
 import { SvgSelector } from 'shared/components/SvgSelector/SvgSelector';
 
+import { useTheme } from 'utils/providers/TemeProvider';
 import EmptyCart from './EmptyCart/EmptyCart';
 import css from './Cart.module.scss';
 
 const Cart = () => {
+  const { isDark } = useTheme();
   const dispatch = useDispatch();
   const isCart = useSelector(getCart);
   const cartLocalData = localStorage.getItem('cart');
@@ -85,7 +87,7 @@ const Cart = () => {
           className={css.wrapperItemTrash}
           onClick={() => handleDelete({ id })}
         >
-          <SvgSelector id="trash" />
+          <SvgSelector id="trash" styles={css.itemTrash} />
         </div>
       </li>
     );
@@ -100,9 +102,13 @@ const Cart = () => {
   const allTotal = cartData.reduce((total, { totalPrice }) => {
     return total + totalPrice;
   }, 0);
-  console.log('cartData', cartData);
+
   return (
-    <div className={`${css.section} ${'container'}`}>
+    <div
+      className={`${css.section} ${
+        isDark ? css.dark : css.light
+      } ${'container'}`}
+    >
       {cartData.length > 0 ? (
         <>
           <button

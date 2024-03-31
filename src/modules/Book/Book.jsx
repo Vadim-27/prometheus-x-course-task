@@ -5,9 +5,11 @@ import { getAllBooks } from '../../redux/books/books-selectors';
 
 import CounterBook from './CounterBook/CounterBook';
 
+import { useTheme } from 'utils/providers/TemeProvider';
 import css from './Book.module.scss';
 
 const Book = () => {
+  const { isDark } = useTheme();
   const { id } = useParams();
   const isBooks = useSelector(getAllBooks);
 
@@ -21,7 +23,11 @@ const Book = () => {
   const imgSrc = image;
 
   return (
-    <div className={`${css.wrapperCardBook} ${'container'}`}>
+    <div
+      className={`${css.wrapperCardBook} ${
+        isDark ? css.dark : css.light
+      } ${'container'}`}
+    >
       <div className={css.wrapperInfoBook}>
         <div className={css.wrapperImg}>
           <img src={imgSrc} alt="Book" className={css.image} />

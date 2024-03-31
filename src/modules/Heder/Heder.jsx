@@ -6,9 +6,12 @@ import ButtonPrimary from 'shared/components/Button/ButtonPrimary/ButtonPrimary'
 import { SvgSelector } from 'shared/components/SvgSelector/SvgSelector';
 import AvatarImg from '../../assete/png/avatar.png';
 
+import { useTheme } from 'utils/providers/TemeProvider';
+import ThemeButton from './TemeButton';
 import css from './Heder.module.scss';
 
 const Heder = ({ stateLogin, onLogout }) => {
+  const { isDark } = useTheme();
   const isCart = useSelector(getCart);
   const cartLocalData = localStorage.getItem('cart');
 
@@ -22,7 +25,11 @@ const Heder = ({ stateLogin, onLogout }) => {
     return total + count;
   }, 0);
   return (
-    <div className={`${css.wrapper} ${'container'}`}>
+    <div
+      className={`${css.wrapper} ${
+        isDark ? css.dark : css.light
+      } ${'container'}`}
+    >
       <Link to={'/books'}>
         <div className={css.wrapperLogo}>
           <p>X-course task</p>
@@ -35,7 +42,7 @@ const Heder = ({ stateLogin, onLogout }) => {
           <Link className={css.wrapperCart} to={'/cart'}>
             {allCount > 0 && (
               <div className={css.wrapperCounterCart}>
-                <p>{allCount}</p>
+                <p className={css.counterCart}>{allCount}</p>
               </div>
             )}
 
@@ -48,6 +55,7 @@ const Heder = ({ stateLogin, onLogout }) => {
           <p className={css.avatarName}>{stateLogin?.userName}</p>
         </div>
       )}
+      <ThemeButton />
     </div>
   );
 };
